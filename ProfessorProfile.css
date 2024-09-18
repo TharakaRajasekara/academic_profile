@@ -1,0 +1,72 @@
+/* src/components/ProfessorProfile.css */
+.profile-container {
+    background-color: #f0f0e9; /* Light cream color for background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+    color: #333; /* Darker text for readability */
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+    border: 3px solid #8B0000; /* Dark red border to match the image */
+}
+
+h1, h2 {
+    color: #8B0000; /* Deep burgundy for titles */
+}
+
+p {
+    color: #4b4b4b; /* Medium gray for text to make it easier to read */
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #4b4b4b; /* Same gray color as paragraphs */
+}
+
+h1 {
+    font-size: 2.2em; /* Larger title */
+    font-weight: bold;
+    border-bottom: 3px solid #FFD700; /* Gold underline */
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.6em; /* Adjusting h2 size */
+    border-bottom: 2px solid #FFD700; /* Gold underline for sections */
+    padding-bottom: 5px;
+}
+
+.profile-container section {
+    margin-bottom: 20px;
+    background-color: #FAFAD2; /* Light golden yellow section backgrounds */
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #8B0000; /* Burgundy side border to highlight sections */
+}
+/* src/components/ProfessorProfile.css */
+
+.linkedin-button {
+    display: inline-block;
+    background-color: #0077b5; /* LinkedIn blue color */
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+    background-color: #005582; /* Darker LinkedIn blue on hover */
+}
